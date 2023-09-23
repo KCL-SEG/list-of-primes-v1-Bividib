@@ -16,7 +16,8 @@ def primes(number_of_primes):
 
 
 def is_prime(val):
-
+    if val==2: 
+        return True
     if val%2==0:
         return False
 
